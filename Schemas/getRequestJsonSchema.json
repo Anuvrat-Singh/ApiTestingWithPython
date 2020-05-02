@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "additionalProperties": true,
+  "required": [
+    "data",
+    "ad"
+  ],
+  "properties": {
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "title": "The Data Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "first_name": "Janet",
+          "last_name": "Weaver",
+          "email": "janet.weaver@reqres.in",
+          "id": 2.0,
+          "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+        }
+      ],
+      "additionalProperties": true,
+      "required": [
+        "id",
+        "email",
+        "first_name",
+        "last_name",
+        "avatar"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/properties/data/properties/id",
+          "type": "integer",
+          "title": "The Id Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            2.0
+          ]
+        },
+        "email": {
+          "$id": "#/properties/data/properties/email",
+          "type": "string",
+          "title": "The Email Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "janet.weaver@reqres.in"
+          ]
+        },
+        "first_name": {
+          "$id": "#/properties/data/properties/first_name",
+          "type": "string",
+          "title": "The First_name Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Janet"
+          ]
+        },
+        "last_name": {
+          "$id": "#/properties/data/properties/last_name",
+          "type": "string",
+          "title": "The Last_name Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Weaver"
+          ]
+        },
+        "avatar": {
+          "$id": "#/properties/data/properties/avatar",
+          "type": "string",
+          "title": "The Avatar Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+          ]
+        }
+      }
+    },
+    "ad": {
+      "$id": "#/properties/ad",
+      "type": "object",
+      "title": "The Ad Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "company": "StatusCode Weekly",
+          "url": "http://statuscode.org/",
+          "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+        }
+      ],
+      "additionalProperties": true,
+      "required": [
+        "company",
+        "url",
+        "text"
+      ],
+      "properties": {
+        "company": {
+          "$id": "#/properties/ad/properties/company",
+          "type": "string",
+          "title": "The Company Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "StatusCode Weekly"
+          ]
+        },
+        "url": {
+          "$id": "#/properties/ad/properties/url",
+          "type": "string",
+          "title": "The Url Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "http://statuscode.org/"
+          ]
+        },
+        "text": {
+          "$id": "#/properties/ad/properties/text",
+          "type": "string",
+          "title": "The Text Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
+          ]
+        }
+      }
+    }
+  }
+}

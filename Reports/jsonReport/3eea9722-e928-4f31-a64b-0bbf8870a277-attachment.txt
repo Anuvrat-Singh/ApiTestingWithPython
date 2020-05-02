@@ -1,0 +1,16 @@
+<Response [201]>
+b'{"name":"Anuvrat Singh","job":"QA Engineer","id":"980","createdAt":"2020-05-02T15:17:05.744Z"}'
+980
+No Validation Error
+<Response [201]>
+b'{"name":"RD Sharma","job":"Doctorate","id":"543","createdAt":"2020-05-02T15:17:06.362Z"}'
+543
+No Validation Error
+<Response [201]>
+b'{"name":"Stan Lee","job":"Being Awesome","id":"601","createdAt":"2020-05-02T15:17:06.976Z"}'
+601
+No Validation Error
+<Response [201]>
+b'{"name":"Salman Khan","job":"Bachelor","id":"985","createdAt":"2020-05-02T15:17:07.587Z"}'
+985
+No Validation Error

@@ -1,0 +1,103 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_TC1_GetRequest",
+      "children" : [ {
+        "name" : "test_getRequest",
+        "uid" : "eebc0188204b7bd5",
+        "parentUid" : "18f043c3a88dfc5634974c492b12da17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432620335,
+          "stop" : 1588432622865,
+          "duration" : 2530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18f043c3a88dfc5634974c492b12da17"
+    }, {
+      "name" : "test_TC2_PostRequest",
+      "children" : [ {
+        "name" : "test_postRequest_positive",
+        "uid" : "1571d57607d581a3",
+        "parentUid" : "1337d283b10ce3b870080936adf27ac0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432622903,
+          "stop" : 1588432625251,
+          "duration" : 2348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_postRequest_Negative",
+        "uid" : "40921402de4fe421",
+        "parentUid" : "1337d283b10ce3b870080936adf27ac0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432625265,
+          "stop" : 1588432627674,
+          "duration" : 2409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1337d283b10ce3b870080936adf27ac0"
+    }, {
+      "name" : "test_TC3_PutRequest",
+      "children" : [ {
+        "name" : "test_putRequest_Positive",
+        "uid" : "3954b65353a1a487",
+        "parentUid" : "42fa1d5bea1797caafd030557cc1c37d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432627688,
+          "stop" : 1588432630092,
+          "duration" : 2404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_putRequest_Negative",
+        "uid" : "c679377e64ee4663",
+        "parentUid" : "42fa1d5bea1797caafd030557cc1c37d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432630106,
+          "stop" : 1588432632491,
+          "duration" : 2385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42fa1d5bea1797caafd030557cc1c37d"
+    }, {
+      "name" : "test_TC4_DeleteResquest",
+      "children" : [ {
+        "name" : "test_deleteRequest",
+        "uid" : "68fcc557d69fe2ed",
+        "parentUid" : "bf4b1c932989ff66f4df1b456a1a7e5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432632514,
+          "stop" : 1588432634984,
+          "duration" : 2470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf4b1c932989ff66f4df1b456a1a7e5a"
+    } ],
+    "uid" : "1dd5dae00c58193b69825e57e00d160e"
+  } ],
+  "name" : "packages"
+}

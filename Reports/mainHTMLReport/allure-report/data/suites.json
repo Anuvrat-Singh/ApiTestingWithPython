@@ -1,0 +1,103 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_TC1_GetRequest",
+      "children" : [ {
+        "name" : "test_getRequest",
+        "uid" : "eebc0188204b7bd5",
+        "parentUid" : "34a0501d5099a766b1e05594e242298d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432620335,
+          "stop" : 1588432622865,
+          "duration" : 2530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34a0501d5099a766b1e05594e242298d"
+    }, {
+      "name" : "test_TC2_PostRequest",
+      "children" : [ {
+        "name" : "test_postRequest_positive",
+        "uid" : "1571d57607d581a3",
+        "parentUid" : "ec476ec18768fe57ed88661a50ad064d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432622903,
+          "stop" : 1588432625251,
+          "duration" : 2348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_postRequest_Negative",
+        "uid" : "40921402de4fe421",
+        "parentUid" : "ec476ec18768fe57ed88661a50ad064d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432625265,
+          "stop" : 1588432627674,
+          "duration" : 2409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec476ec18768fe57ed88661a50ad064d"
+    }, {
+      "name" : "test_TC3_PutRequest",
+      "children" : [ {
+        "name" : "test_putRequest_Positive",
+        "uid" : "3954b65353a1a487",
+        "parentUid" : "2a74aaa1f2e552146a07642c13fda767",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432627688,
+          "stop" : 1588432630092,
+          "duration" : 2404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_putRequest_Negative",
+        "uid" : "c679377e64ee4663",
+        "parentUid" : "2a74aaa1f2e552146a07642c13fda767",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432630106,
+          "stop" : 1588432632491,
+          "duration" : 2385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a74aaa1f2e552146a07642c13fda767"
+    }, {
+      "name" : "test_TC4_DeleteResquest",
+      "children" : [ {
+        "name" : "test_deleteRequest",
+        "uid" : "68fcc557d69fe2ed",
+        "parentUid" : "a653c5f12df8baded881c920260dbef5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588432632514,
+          "stop" : 1588432634984,
+          "duration" : 2470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a653c5f12df8baded881c920260dbef5"
+    } ],
+    "uid" : "0408d924bc3d43de55080f45620fd22e"
+  } ],
+  "name" : "suites"
+}

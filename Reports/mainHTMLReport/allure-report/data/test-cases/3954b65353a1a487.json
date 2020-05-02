@@ -1,0 +1,84 @@
+{
+  "uid" : "3954b65353a1a487",
+  "name" : "test_putRequest_Positive",
+  "fullName" : "TestCases.test_TC3_PutRequest#test_putRequest_Positive",
+  "historyId" : "1e750ce9370248adb1df4bbf3a5230f7",
+  "time" : {
+    "start" : 1588432627688,
+    "stop" : 1588432630092,
+    "duration" : 2404
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1588432627676,
+      "stop" : 1588432627687,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9c384c1ecbc2cf94",
+      "name" : "stdout",
+      "source" : "9c384c1ecbc2cf94.txt",
+      "type" : "text/plain",
+      "size" : 582
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC3_PutRequest"
+  }, {
+    "name" : "host",
+    "value" : "deadpool-Latitude-3490"
+  }, {
+    "name" : "thread",
+    "value" : "8925-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_TC3_PutRequest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3954b65353a1a487.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,16 @@
+<Response [200]>
+b'{"name":"Anuvrat Singh","job":"QA Engineer","updatedAt":"2020-05-02T15:17:10.581Z"}'
+2020-05-02T15:17:10.581Z
+No Validation Error
+<Response [200]>
+b'{"name":"RD Sharma","job":"Doctorate","updatedAt":"2020-05-02T15:17:11.166Z"}'
+2020-05-02T15:17:11.166Z
+No Validation Error
+<Response [200]>
+b'{"name":"Stan Lee","job":"Being Awesome","updatedAt":"2020-05-02T15:17:11.789Z"}'
+2020-05-02T15:17:11.789Z
+No Validation Error
+<Response [200]>
+b'{"name":"Salman Khan","job":"Bachelor","updatedAt":"2020-05-02T15:17:12.406Z"}'
+2020-05-02T15:17:12.406Z
+No Validation Error
